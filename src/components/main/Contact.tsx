@@ -98,8 +98,8 @@ const Contact = () => {
             <textarea
               placeholder="Message"
               name="message"
-              cols="30"
-              rows="10"
+              cols={30}
+              rows={10}
               value={message}
               onChange={onChangeHandler}
               className="input__control textarea"
